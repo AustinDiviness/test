@@ -13,6 +13,9 @@ class Bender(Robot):
     def smoke(self):
         print "puff puff"
 
+    def drink(self, drink):
+        print "glug glug, %s is the bees knees" % drink
+
 class Bender1(Bender):
     def __init__(contents = "Fry's wallet"):
         super.init("Bender", "gold", contents)
